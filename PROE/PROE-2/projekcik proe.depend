@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1426813073 source:/home/kamil/Pulpit/projekcik proe/main.cpp
+	"include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<cstdio>
+	<string>
+
+1426808787 source:/home/kamil/Pulpit/projekcik proe/src/Firma_remontowa.cpp
+	"../include/Firma_remontowa.h"
+	<iostream>
+
+1426780632 /home/kamil/Pulpit/projekcik proe/include/Firma_remontowa.h
+	<string>
+
+1426808767 source:/home/kamil/Pulpit/projekcik proe/src/Lista_budynkow.cpp
+	"../include/Lista_budynkow.h"
+	<iostream>
+
+1426703740 /home/kamil/Pulpit/projekcik proe/include/Budynek.h
+
+1426780701 /home/kamil/Pulpit/projekcik proe/include/Lista_budynkow.h
+	"../include/Budynek.h"
+
+1426808809 source:/home/kamil/Pulpit/projekcik proe/src/Obsluga_podatkow.cpp
+	"../include/Obsluga_podatkow.h"
+	<iostream>
+
+1426780696 /home/kamil/Pulpit/projekcik proe/include/Obsluga_podatkow.h
+
+1426811003 source:/home/kamil/Pulpit/projekcik proe/src/Zarzadzanie_wspoldzielnia.cpp
+	"../include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<string>
+
+1426806610 /home/kamil/Pulpit/projekcik proe/include/Zarzadzanie_wspoldzielnia.h
+	"Firma_remontowa.h"
+	"Lista_budynkow.h"
+	"Obsluga_podatkow.h"
+
+1430945582 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/main.cpp
+	"include/Miejska.h"
+	"include/Wiejska.h"
+	<iostream>
+	<fstream>
+
+1430875355 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Zarzadzanie_wspoldzielnia.h
+	"Firma_remontowa.h"
+	"Obsluga_podatkow.h"
+	"Zarzadzanie_budynkami.h"
+	<vector>
+
+1430873419 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Firma_remontowa.h
+	<string>
+
+1426780701 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Lista_budynkow.h
+	"../include/Budynek.h"
+
+1430873040 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Budynek.h
+	<iostream>
+
+1430876066 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Obsluga_podatkow.h
+	<iostream>
+
+1430875278 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Firma_remontowa.cpp
+	"../include/Firma_remontowa.h"
+	<iostream>
+	<fstream>
+
+1430875295 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Obsluga_podatkow.cpp
+	"../include/Obsluga_podatkow.h"
+	<iostream>
+	<fstream>
+
+1430871299 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Budynek.cpp
+	"../include/Budynek.h"
+	<fstream>
+	<string>
+
+1430875372 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Zarzadzanie_wspoldzielnia.cpp
+	"../include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1430077865 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Zarzadzanie_hotelami.cpp
+	"../include/Zarzadzanie_hotelami.h"
+
+1430077758 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Zarzadzanie_hotelami.h
+	"Zarzadzanie_wspoldzielnia.h"
+
+1430945453 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Miejska.cpp
+	"../include/Miejska.h"
+	<string>
+	<fstream>
+
+1430873586 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Miejska.h
+	"Zarzadzanie_wspoldzielnia.h"
+	"Sklep.h"
+
+1430871073 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Wiejska.cpp
+	"../include/Wiejska.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1430874496 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Wiejska.h
+	"Zarzadzanie_wspoldzielnia.h"
+	"Remiza.h"
+
+1430874675 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Zarzadzanie_budynkami.h
+	"Budynek.h"
+	"Wyjatek.h"
+	<vector>
+
+1430875422 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Zarzadzanie_budynkami.cpp
+	"../include/Zarzadzanie_budynkami.h"
+
+1430085496 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/src/Budynek.cpp
+	"../include/Budynek.h"
+	<fstream>
+	<string>
+
+1430082722 /home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/include/Budynek.h
+	<iostream>
+
+1430085099 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/src/Firma_remontowa.cpp
+	"../include/Firma_remontowa.h"
+	<iostream>
+	<fstream>
+
+1430082759 /home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/include/Firma_remontowa.h
+	<string>
+
+1430085115 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/src/Obsluga_podatkow.cpp
+	"../include/Obsluga_podatkow.h"
+	<iostream>
+	<fstream>
+
+1430082711 /home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/include/Obsluga_podatkow.h
+	<iostream>
+
+1430080433 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/src/Zarzadzanie_budynkami.cpp
+	"../include/Zarzadzanie_budynkami.h"
+
+1430085242 /home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/include/Zarzadzanie_budynkami.h
+	"Budynek.h"
+	<vector>
+
+1430086226 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/src/Zarzadzanie_wspoldzielnia.cpp
+	"../include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1430174311 /home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/include/Zarzadzanie_wspoldzielnia.h
+	"Firma_remontowa.h"
+	"Obsluga_podatkow.h"
+	"Zarzadzanie_budynkami.h"
+	<vector>
+
+1430323611 source:/home/kamil/Pulpit/wszystko/Elka/PROE/PROE-2/main.cpp
+	"include/Zarzadzanie_budynkami.h"
+	"include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<cstdio>
+
+1430871333 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Remiza.cpp
+	"../include/Remiza.h"
+	<fstream>
+	<string>
+
+1430874267 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Remiza.h
+	<iostream>
+
+1430871345 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Sklep.cpp
+	"../include/Sklep.h"
+	<fstream>
+
+1430874386 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Sklep.h
+	"Budynek.h"
+
+1430867835 /home/kamil/Pulpit/Elka/PROE/PROE-2/src/Wyjatek.cpp
+	<iostream>
+	<fstream>
+
+1430868618 source:/home/kamil/Pulpit/Elka/PROE/PROE-2/src/Wyjatek.cpp
+	"../include/Wyjatek.h"
+
+1430874549 /home/kamil/Pulpit/Elka/PROE/PROE-2/include/Wyjatek.h
+	<iostream>
+	<fstream>
+

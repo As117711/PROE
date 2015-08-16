@@ -1,0 +1,102 @@
+\hypertarget{class_budynek}{}\section{Budynek Class Reference}
+\label{class_budynek}\index{Budynek@{Budynek}}
+
+
+Klasa budynek.  
+
+
+
+
+{\ttfamily \#include $<$Budynek.\+h$>$}
+
+Inheritance diagram for Budynek\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_budynek}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_budynek_a6130ff6245a4f097247c7f6ab68d14e2}{Budynek} (int r=0, char s=0)
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+\hypertarget{class_budynek_a6f682a6b4f44890413a20b87188dbcec}{}int \hyperlink{class_budynek_a6f682a6b4f44890413a20b87188dbcec}{zwroc\+Rodzaj} ()\label{class_budynek_a6f682a6b4f44890413a20b87188dbcec}
+
+\begin{DoxyCompactList}\small\item\em -\/\+Funkcja zwracajaca rodzaj budynku. \end{DoxyCompactList}\item 
+char \hyperlink{class_budynek_abba0db0edd3d93f17cb5132c60bbfaa2}{zwroc\+Stan} ()
+\item 
+\hypertarget{class_budynek_af5e0277c39c21e787f695ab93ed595e4}{}virtual void \hyperlink{class_budynek_af5e0277c39c21e787f695ab93ed595e4}{wczytaj\+\_\+z\+Pliku} (istream \&)\label{class_budynek_af5e0277c39c21e787f695ab93ed595e4}
+
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca wczytanie stanu obiektu z pliku. \end{DoxyCompactList}\item 
+\hypertarget{class_budynek_a583785190d93363081f9c6c62d43cbdb}{}virtual void \hyperlink{class_budynek_a583785190d93363081f9c6c62d43cbdb}{zapisz\+\_\+do\+Pliku} (string)\label{class_budynek_a583785190d93363081f9c6c62d43cbdb}
+
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca zapisanie stanu obiektu do pliku. \end{DoxyCompactList}\item 
+\hypertarget{class_budynek_abe365ed665adfe618be92e6767e628f3}{}void \hyperlink{class_budynek_abe365ed665adfe618be92e6767e628f3}{popraw\+Stan} (int)\label{class_budynek_abe365ed665adfe618be92e6767e628f3}
+
+\begin{DoxyCompactList}\small\item\em Funkcja zwiekszenie stanu budynku. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_budynek_a99ad6ea24ed1e4d9acbe2855142de9b0}{rodzaj}
+\item 
+char \hyperlink{class_budynek_a790ff1e35e2c213152c6436fbb6ee285}{stan}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_budynek_a8e6044eb13005ebfaf1787db6fc51f59}{}ostream \& \hyperlink{class_budynek_a8e6044eb13005ebfaf1787db6fc51f59}{operator$<$$<$} (ostream \&, \hyperlink{class_budynek}{Budynek} \&)\label{class_budynek_a8e6044eb13005ebfaf1787db6fc51f59}
+
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy. \end{DoxyCompactList}\item 
+\hypertarget{class_budynek_a8ad34897c6d555d7818558e38ef191c9}{}istream \& \hyperlink{class_budynek_a8ad34897c6d555d7818558e38ef191c9}{operator$>$$>$} (istream \&, \hyperlink{class_budynek}{Budynek} \&)\label{class_budynek_a8ad34897c6d555d7818558e38ef191c9}
+
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa budynek. 
+
+Klasa Umozliwiajaca tworzenie budynkow oraz zarzadzania nimi. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_budynek_a6130ff6245a4f097247c7f6ab68d14e2}{}\index{Budynek@{Budynek}!Budynek@{Budynek}}
+\index{Budynek@{Budynek}!Budynek@{Budynek}}
+\subsubsection[{Budynek(int r=0, char s=0)}]{\setlength{\rightskip}{0pt plus 5cm}Budynek\+::\+Budynek (
+\begin{DoxyParamCaption}
+\item[{int}]{r = {\ttfamily 0}, }
+\item[{char}]{s = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\label{class_budynek_a6130ff6245a4f097247c7f6ab68d14e2}
+
+
+Konstruktor. 
+
+Umozliwia stworzenie obiektu z okreslonym stanem poczatkowym. r-\/rodzaj, s-\/stan. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_budynek_abba0db0edd3d93f17cb5132c60bbfaa2}{}\index{Budynek@{Budynek}!zwroc\+Stan@{zwroc\+Stan}}
+\index{zwroc\+Stan@{zwroc\+Stan}!Budynek@{Budynek}}
+\subsubsection[{zwroc\+Stan()}]{\setlength{\rightskip}{0pt plus 5cm}char Budynek\+::zwroc\+Stan (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_budynek_abba0db0edd3d93f17cb5132c60bbfaa2}
+-\/\+Funkcja zwracajaca stan budynku. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_budynek_a99ad6ea24ed1e4d9acbe2855142de9b0}{}\index{Budynek@{Budynek}!rodzaj@{rodzaj}}
+\index{rodzaj@{rodzaj}!Budynek@{Budynek}}
+\subsubsection[{rodzaj}]{\setlength{\rightskip}{0pt plus 5cm}int Budynek\+::rodzaj\hspace{0.3cm}{\ttfamily [protected]}}\label{class_budynek_a99ad6ea24ed1e4d9acbe2855142de9b0}
+
+\begin{DoxyItemize}
+\item Zmienna okreslajaca rodzaj budynku. (1.\+Dom; 2.\+Szeregowiec; 3.\+Budynek; 4.\+Wiezowiec) 
+\end{DoxyItemize}\hypertarget{class_budynek_a790ff1e35e2c213152c6436fbb6ee285}{}\index{Budynek@{Budynek}!stan@{stan}}
+\index{stan@{stan}!Budynek@{Budynek}}
+\subsubsection[{stan}]{\setlength{\rightskip}{0pt plus 5cm}char Budynek\+::stan\hspace{0.3cm}{\ttfamily [protected]}}\label{class_budynek_a790ff1e35e2c213152c6436fbb6ee285}
+
+\begin{DoxyItemize}
+\item Zmienna Okreslajaca stan budynku w skali od 1 do 10. 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/kamil/\+Pulpit/\+Elka/\+P\+R\+O\+E/\+P\+R\+O\+E-\/2/include/Budynek.\+h\end{DoxyCompactItemize}

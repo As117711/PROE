@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="include/Budynek.h" open="0" top="0" tabpos="0">
+		<Cursor position="117" topLine="0" />
+	</File>
+	<File name="include/Firma_remontowa.h" open="0" top="0" tabpos="0">
+		<Cursor position="203" topLine="0" />
+	</File>
+	<File name="include/Lista_budynkow.h" open="0" top="0" tabpos="0">
+		<Cursor position="355" topLine="0" />
+	</File>
+	<File name="include/Obsluga_podatkow.h" open="0" top="0" tabpos="0">
+		<Cursor position="88" topLine="0" />
+	</File>
+	<File name="include/Zarzadzanie_wspoldzielnia.h" open="1" top="0" tabpos="3">
+		<Cursor position="1817" topLine="30" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/Firma_remontowa.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="411" topLine="0" />
+	</File>
+	<File name="src/Lista_budynkow.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="420" topLine="0" />
+	</File>
+	<File name="src/Obsluga_podatkow.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="482" topLine="0" />
+	</File>
+	<File name="src/Zarzadzanie_wspoldzielnia.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="4823" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

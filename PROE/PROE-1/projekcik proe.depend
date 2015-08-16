@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1426813073 source:/home/kamil/Pulpit/projekcik proe/main.cpp
+	"include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<cstdio>
+	<string>
+
+1426808787 source:/home/kamil/Pulpit/projekcik proe/src/Firma_remontowa.cpp
+	"../include/Firma_remontowa.h"
+	<iostream>
+
+1426780632 /home/kamil/Pulpit/projekcik proe/include/Firma_remontowa.h
+	<string>
+
+1426808767 source:/home/kamil/Pulpit/projekcik proe/src/Lista_budynkow.cpp
+	"../include/Lista_budynkow.h"
+	<iostream>
+
+1426703740 /home/kamil/Pulpit/projekcik proe/include/Budynek.h
+
+1426780701 /home/kamil/Pulpit/projekcik proe/include/Lista_budynkow.h
+	"../include/Budynek.h"
+
+1426808809 source:/home/kamil/Pulpit/projekcik proe/src/Obsluga_podatkow.cpp
+	"../include/Obsluga_podatkow.h"
+	<iostream>
+
+1426780696 /home/kamil/Pulpit/projekcik proe/include/Obsluga_podatkow.h
+
+1426811003 source:/home/kamil/Pulpit/projekcik proe/src/Zarzadzanie_wspoldzielnia.cpp
+	"../include/Zarzadzanie_wspoldzielnia.h"
+	<iostream>
+	<string>
+
+1426806610 /home/kamil/Pulpit/projekcik proe/include/Zarzadzanie_wspoldzielnia.h
+	"Firma_remontowa.h"
+	"Lista_budynkow.h"
+	"Obsluga_podatkow.h"
+

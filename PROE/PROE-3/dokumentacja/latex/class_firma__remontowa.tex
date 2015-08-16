@@ -1,0 +1,107 @@
+\hypertarget{class_firma__remontowa}{}\section{Firma\+\_\+remontowa Class Reference}
+\label{class_firma__remontowa}\index{Firma\+\_\+remontowa@{Firma\+\_\+remontowa}}
+
+
+Klasa firmy remontowej.  
+
+
+
+
+{\ttfamily \#include $<$Firma\+\_\+remontowa.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_firma__remontowa_a86d679b734a66ee5ffdd15f470815792}{}\hyperlink{class_firma__remontowa_a86d679b734a66ee5ffdd15f470815792}{Firma\+\_\+remontowa} ()\label{class_firma__remontowa_a86d679b734a66ee5ffdd15f470815792}
+
+\begin{DoxyCompactList}\small\item\em Konstruktor domysly. \end{DoxyCompactList}\item 
+int \hyperlink{class_firma__remontowa_acc5540b46df2bd85c4357870b2b086f5}{zwroc\+\_\+cene} (int)
+\begin{DoxyCompactList}\small\item\em Funkcja zwracajaca cene rodzaju budynku. \end{DoxyCompactList}\item 
+string \hyperlink{class_firma__remontowa_ac58421192dc9b68dcd5f7ed35faf58da}{zwroc\+\_\+nazwe} ()
+\begin{DoxyCompactList}\small\item\em Funkcja zwracajaca nazwe firmy remontowej. \end{DoxyCompactList}\item 
+\hypertarget{class_firma__remontowa_acd19620a53800f84df0fbe377f28dd64}{}void \hyperlink{class_firma__remontowa_acd19620a53800f84df0fbe377f28dd64}{info\+\_\+firma} ()\label{class_firma__remontowa_acd19620a53800f84df0fbe377f28dd64}
+
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca informacje o firmie. \end{DoxyCompactList}\item 
+\hypertarget{class_firma__remontowa_a2097892c4af1ca175b73072d7b4176a7}{}void \hyperlink{class_firma__remontowa_a2097892c4af1ca175b73072d7b4176a7}{zmien\+\_\+nazwe} (string \&)\label{class_firma__remontowa_a2097892c4af1ca175b73072d7b4176a7}
+
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca zmiane nazwy firmy. \end{DoxyCompactList}\item 
+void \hyperlink{class_firma__remontowa_a231e8446931c11fc608b5026204de56f}{zmien\+\_\+cene} (int, int)
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca zmiane ceny uslugi. \end{DoxyCompactList}\item 
+\hypertarget{class_firma__remontowa_a0d15798ca03b0ebe81f333e25ee6c209}{}void \hyperlink{class_firma__remontowa_a0d15798ca03b0ebe81f333e25ee6c209}{wczytaj\+\_\+z\+Pliku} (istream \&)\label{class_firma__remontowa_a0d15798ca03b0ebe81f333e25ee6c209}
+
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca wczytanie stanu obiektu z pliku. \end{DoxyCompactList}\item 
+\hypertarget{class_firma__remontowa_a982872b417e2d0dc7a44f95fcd05a3a5}{}void \hyperlink{class_firma__remontowa_a982872b417e2d0dc7a44f95fcd05a3a5}{zapisz\+\_\+do\+Pliku} (string)\label{class_firma__remontowa_a982872b417e2d0dc7a44f95fcd05a3a5}
+
+\begin{DoxyCompactList}\small\item\em Funkcja umozliwiajaca zapisanie stanu obiektu do pliku. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_firma__remontowa_ac3b1f713f74aaecd01167600c9166b25}{}ostream \& \hyperlink{class_firma__remontowa_ac3b1f713f74aaecd01167600c9166b25}{operator$<$$<$} (ostream \&, \hyperlink{class_firma__remontowa}{Firma\+\_\+remontowa} \&)\label{class_firma__remontowa_ac3b1f713f74aaecd01167600c9166b25}
+
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy. \end{DoxyCompactList}\item 
+\hypertarget{class_firma__remontowa_a47a7efe31fd7ca3e995d2544635d252c}{}istream \& \hyperlink{class_firma__remontowa_a47a7efe31fd7ca3e995d2544635d252c}{operator$>$$>$} (istream \&, \hyperlink{class_firma__remontowa}{Firma\+\_\+remontowa} \&)\label{class_firma__remontowa_a47a7efe31fd7ca3e995d2544635d252c}
+
+\begin{DoxyCompactList}\small\item\em Operator strumieniowy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa firmy remontowej. 
+
+Klasa umozliwia przeprowadzanie remontow budynkow w wspoldzielni. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_firma__remontowa_a231e8446931c11fc608b5026204de56f}{}\index{Firma\+\_\+remontowa@{Firma\+\_\+remontowa}!zmien\+\_\+cene@{zmien\+\_\+cene}}
+\index{zmien\+\_\+cene@{zmien\+\_\+cene}!Firma\+\_\+remontowa@{Firma\+\_\+remontowa}}
+\subsubsection[{zmien\+\_\+cene(int, int)}]{\setlength{\rightskip}{0pt plus 5cm}void Firma\+\_\+remontowa\+::zmien\+\_\+cene (
+\begin{DoxyParamCaption}
+\item[{int}]{, }
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\label{class_firma__remontowa_a231e8446931c11fc608b5026204de56f}
+
+
+Funkcja umozliwiajaca zmiane ceny uslugi. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pierwszy} & argument okresla rodzaj budynku, drugi nowa cene uslugi. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_firma__remontowa_acc5540b46df2bd85c4357870b2b086f5}{}\index{Firma\+\_\+remontowa@{Firma\+\_\+remontowa}!zwroc\+\_\+cene@{zwroc\+\_\+cene}}
+\index{zwroc\+\_\+cene@{zwroc\+\_\+cene}!Firma\+\_\+remontowa@{Firma\+\_\+remontowa}}
+\subsubsection[{zwroc\+\_\+cene(int)}]{\setlength{\rightskip}{0pt plus 5cm}int Firma\+\_\+remontowa\+::zwroc\+\_\+cene (
+\begin{DoxyParamCaption}
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\label{class_firma__remontowa_acc5540b46df2bd85c4357870b2b086f5}
+
+
+Funkcja zwracajaca cene rodzaju budynku. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rodzaj} & budynku. 1.\+Dom; 2.\+Szeregowiec; 3.\+Budynek; 4.\+Wiezowiec \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca cene uslugi. 
+\end{DoxyReturn}
+\hypertarget{class_firma__remontowa_ac58421192dc9b68dcd5f7ed35faf58da}{}\index{Firma\+\_\+remontowa@{Firma\+\_\+remontowa}!zwroc\+\_\+nazwe@{zwroc\+\_\+nazwe}}
+\index{zwroc\+\_\+nazwe@{zwroc\+\_\+nazwe}!Firma\+\_\+remontowa@{Firma\+\_\+remontowa}}
+\subsubsection[{zwroc\+\_\+nazwe()}]{\setlength{\rightskip}{0pt plus 5cm}string Firma\+\_\+remontowa\+::zwroc\+\_\+nazwe (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_firma__remontowa_ac58421192dc9b68dcd5f7ed35faf58da}
+
+
+Funkcja zwracajaca nazwe firmy remontowej. 
+
+\begin{DoxyReturn}{Returns}
+Zwraca nazwe firmy. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/kamil/\+Pulpit/\+Elka/\+P\+R\+O\+E/\+P\+R\+O\+E-\/2/include/Firma\+\_\+remontowa.\+h\end{DoxyCompactItemize}
